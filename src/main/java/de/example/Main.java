@@ -5,10 +5,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import de.example.SimpleProtocol.SimpleProtocolBuilder;
-import de.mtws.connection.api.imp.StreamAcceptor.StreamAcceptorBuilder;
-import de.mtws.connection.api.imp.StreamHandlerAdapter.StreamHandlerAdapterBuilder;
-import de.mtws.connection.api.imp.StreamInjector;
-import de.mtws.connection.api.imp.StreamReactor;
+import de.mtws.connection.imp.StreamInjector;
+import de.mtws.connection.imp.StreamReactor;
+import de.mtws.connection.imp.StreamAcceptor.StreamAcceptorBuilder;
+import de.mtws.connection.imp.StreamHandlerAdapter.StreamHandlerAdapterBuilder;
 
 public class Main {
 
